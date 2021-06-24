@@ -1,0 +1,116 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 10px 10px 109px 1px rgb(238, 190, 190);
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+ 
+ 
+}
+th{
+  background-color: black;
+  color: white;
+
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.knowparrent{
+  /* border: 5px solid green; */
+  height:auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+ 
+.knowchild img{
+  width: 100%;
+}
+
+.knowchild{
+  /* border: 1px solid red; */
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  box-shadow:5px 10px 15px rgb(179, 77, 77);
+}
+.secondparrent{
+  /* border: 5px solid red; */
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.secondchild img{
+  width:100%;
+}
+.secondchild{
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+  box-shadow:5px 10px 15px rgb(179, 77, 77);
+}
+
+
+.nav li a{
+    color:white;
+    border-radius: 5px;
+  
+  }
+  .nav{
+    display: flex;  
+    justify-content: center;
+    justify-content: space-around;
+     background-color: black;
+    width: 100%;
+    padding: 40px;
+    overflow: auto;
+
+
+    /* position: fixed; */
+    /* margin-top:-2px; */
+  }
+  
+  
+
+  /* comment box css  */
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
